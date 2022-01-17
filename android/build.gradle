@@ -33,7 +33,7 @@ android {
         minSdkVersion 17
     }
     dependencies {
-        implementation 'org.tensorflow:tensorflow-lite:+'
-        implementation 'org.tensorflow:tensorflow-lite-gpu:+'
+        implementation 'org.tensorflow:tensorflow-lite:2.3.0'
+        implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
     }
 }
